@@ -1,0 +1,314 @@
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Invalid input
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Invalid input
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Enter MAP number:
+Enter Coordinates (X,Y):
+New Robot: 1 MAP: 1 GPS: 1,0
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Enter MAP number:
+Enter Coordinates (X,Y):
+New Robot: 2 MAP: 1 GPS: 0,3
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Enter MAP number:
+Enter Coordinates (X,Y):
+New Robot: 3 MAP: 1 GPS: 0,4
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Enter MAP number:
+Enter Coordinates (X,Y):
+New Robot: 4 MAP: 2 GPS: 1,2
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Enter MAP number:
+Enter Coordinates (X,Y):
+New Robot: 5 MAP: 2 GPS: 2,2
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Enter MAP number:
+Enter Coordinates (X,Y):
+Invalid location
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Enter MAP number:
+Enter Coordinates (X,Y):
+Invalid location
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Enter Robot number:
+Robot deleted: 1 MAP: 1 GPS: 1,0
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Enter Robot number:
+Robot deleted: 4 MAP: 2 GPS: 1,2
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Enter Robot number:
+Enter direction:
+Robot: 2 MAP: 1 GPS: 0,3
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+[1 1 0 1 1 1 1]
+[1 1 0 1 1 1 1]
+[1 1 0 1 1 1 1]
+[0 1 1 1 1 1 1]
+[1 0 1 1 0 1 1]
+[1 1 1 1 1 1 0]
+[1 0 1 0 0 0 0]
+Robot: 2 MAP: 1 GPS: 0,3
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Override MAP number:
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Please enter MAP number:
+[1 1 0 1 1 1 1]
+[1 1 0 1 1 1 1]
+[1 1 0 1 1 1 1]
+[0 1 1 1 1 1 1]
+[1 0 1 1 0 1 1]
+[1 1 1 1 1 1 0]
+[1 0 1 0 0 0 0]
+Robot: 2 MAP: 1 GPS: 0,3
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Override MAP number:
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Please enter MAP number:
+[1 1 0 0 0 1 1]
+[1 1 0 1 1 1 1]
+[1 1 0 0 0 1 1]
+[0 1 1 1 0 1 1]
+[0 0 0 0 0 1 1]
+[1 1 0 1 1 1 0]
+[1 0 1 0 0 0 0]
+Robot: 2 MAP: 1 GPS: 0,3
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+TRUE
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Enter Robot number:
+Enter direction:
+Robot: 5 MAP: 2 GPS: 1,2
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Enter Robot number:
+Enter direction:
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:
+Please enter MAP number:
+[1 1 0 0 0 1 1]
+[1 1 0 1 1 1 1]
+[1 1 0 0 0 1 1]
+[0 1 1 1 0 1 1]
+[0 0 0 0 0 1 1]
+[1 1 0 1 1 1 0]
+[1 0 1 0 0 0 0]
+Robot Control Menu
+1. Add Robot
+2. Delete Robot
+3. Move Robot
+4. Operator +
+5. Operator +=
+6. Operator =
+7. Operator ==
+8. Operator <<
+9. Quit
+Input your option:

@@ -1,0 +1,114 @@
+/*
+ ============================================================================
+ Name        : JerryBoreeMain.c
+ Author      : 
+ Version     :
+ Copyright   : Your copyright notice
+ Description : Hello World in C, Ansi-style
+ ============================================================================
+ */
+
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
+#include "HashTable.h"
+#include "KeyValuePair.h"
+#include "LinkedList.h"
+#include "Defs.h"
+static int hashNumber;
+Element copyKey(Element key)
+{
+	char* pKey=(char*)key;
+	char* cpy=(char*)malloc(sizeof(char)*strlen(pKey));
+	strcpy(cpy,pKey);
+	return cpy;
+}
+status freeKey (Element key)
+{
+	if (key==NULL)
+			return failure;
+	char* pKey=(char*)key;
+	free(pKey);
+	return success;
+}
+status printKey (Element key)
+{
+	char* pKey=(char*)key;
+	printf("%s \n",pKey);
+	return success;
+}
+Element copyValue(Element value)
+{
+	char* pValue=(char*)value;
+	char* cpy=(char*)malloc(strlen(pValue)*sizeof(char));
+	strcpy(cpy,pValue);
+	return cpy;
+}
+status freeValue (Element value)
+{
+	if (value==NULL)
+		return failure;
+	char* pValue=(char*)value;
+	free(pValue);
+	return success;
+}
+status printValue (Element value)
+{
+	char* pValue=(char*)value;
+	printf("%s \n",pValue);
+	return success;
+}
+int transformIntoNumber (Element key)
+{
+	int counter=0, asciiVal;
+	char* pKey=(char*)key;
+	for (int i=0;i<strlen(pKey);i++)
+	{
+		asciiVal=(int)pKey[i];
+		counter+=asciiVal;
+	}
+
+	return (int)counter%hashNumber;
+}
+bool equalKey (Element pKey1, Element pKey2)
+{
+	if (strcmp(pKey1,pKey2)==0)
+		return true;
+	return false;
+}
+int main(void)
+{
+	hashNumber=3;
+	int ascii;
+	char* key1=(char*)malloc(sizeof(char)*1);
+	key1[0]='1'; //ascii value = 49
+	char* key2=(char*)malloc(sizeof(char)*1);
+	key2[0]='2'; //ascii value = 50
+	char* key3=(char*)malloc(sizeof(char)*1);
+	key3[0]='3'; // ascii value = 51
+	char* name1=(char*)malloc(sizeof(char)*2);
+	strcpy(name1,"ab");
+	char* name2=(char*)malloc(sizeof(char)*2);
+	strcpy(name2,"cd");
+	char* name3=(char*)malloc(sizeof(char)*2);
+	strcpy(name3,"ef");
+	hashTable hashTab=createHashTable(copyKey, freeKey, printKey, copyValue, freeValue, printValue, equalKey, transformIntoNumber, hashNumber);
+	printf("add key1, key2: \n");
+	addToHashTable(hashTab,key1,name1);
+	addToHashTable(hashTab,key2,name2);
+	printf("hash table status: \n");
+	displayHashElements(hashTab);
+	printf("lookup for key2: \n");
+	Element elem=lookupInHashTable(hashTab, key2);
+	PrintKeyValuePair(elem);
+	printf("add key3: \n");
+	addToHashTable(hashTab,key3,name3);
+	printf("remove key2: \n");
+	removeFromHashTable(hashTab,key2);
+	printf("hash table status: \n");
+	displayHashElements(hashTab);
+
+	
+
+	return 0;
+}

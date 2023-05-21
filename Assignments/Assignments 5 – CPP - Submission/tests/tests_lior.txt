@@ -1,0 +1,681 @@
+./open_tests.sh: line 3: 3507960 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+Open Test - 1 (print menu and quit)
+Test Failed. Details: 
+./open_tests.sh: line 3: 3507993 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+stdin: 
+
+0
+
+
+expected output:
+
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+
+
+your program's output:
+
+
+
+
+./open_tests.sh: line 3: 3508026 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+Open Test - 2 (print parties)
+Test Failed. Details: 
+./open_tests.sh: line 3: 3508059 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+stdin: 
+
+7
+0
+
+
+expected output:
+
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+----Parties----
+Republican Party: Farmers, chairman:None, Size:7
+	Republican Person:Mac Thornberry, Id:2113, Power:9, Type:S, Chairman: None
+	Republican Person:Steve Womack, Id:2114, Power:11, Type:S, Chairman: None
+	Republican Person:Virginia Foxx, Id:2115, Power:21, Type:S, Chairman: None
+	Republican Person:Greg Walden, Id:2116, Power:14, Type:S, Chairman: None
+	Republican Person:Kenny Marchant, Id:2117, Power:21, Type:S, Chairman: None
+	Republican Person:Tom Emmer, Id:1114, Power:11, Type:L, Chairman: None
+	Republican Person:Mark Walker, Id:1115, Power:21, Type:L, Chairman: None
+Republican Party: Republicans_party, chairman:None, Size:7
+	Republican Person:Dunald Trump, Id:1111, Power:100, Type:L, Chairman: None
+	Republican Person:Steve Scalise, Id:1112, Power:40, Type:L, Chairman: None
+	Republican Person:Liz Cheney, Id:1113, Power:29, Type:L, Chairman: None
+	Republican Person:Jason Smith, Id:1116, Power:14, Type:L, Chairman: None
+	Republican Person:Gary Palmer, Id:1117, Power:21, Type:L, Chairman: None
+	Republican Person:Michael Conaway, Id:2111, Power:10, Type:S, Chairman: None
+	Republican Person:Kay Granger, Id:2112, Power:4, Type:S, Chairman: None
+Democrat Party: Democratic_party, chairman:None, Size:5
+	Democratic Person:Hillary Clinton, Id:3117, Power:81, Type:L, Chairman: None
+	Democratic Person:Jim Costa, Id:4111, Power:18, Type:S, Chairman: None
+	Democratic Person:Mike Levin, Id:4115, Power:20, Type:S, Chairman: None
+	Democratic Person:Juan Vargas, Id:4116, Power:17, Type:L, Chairman: None
+	Democratic Person:Ted Detuch, Id:4117, Power:29, Type:S, Chairman: None
+Democrat Party: Peasants, chairman:None, Size:3
+	Democratic Person:Nancy Pelosi, Id:4114, Power:1, Type:S, Chairman: None
+	Democratic Person:Ayanna Soyini-Pressley, Id:3113, Power:39, Type:L, Chairman: None
+	Democratic Person:Rashida Harbi-Tlaib, Id:3114, Power:11, Type:L, Chairman: None
+Democrat Party: Fishermen, chairman:None, Size:6
+	Democratic Person:Alexandria Ocasio-Cortez, Id:3111, Power:50, Type:L, Chairman: None
+	Democratic Person:Ilhan Abdullahi-Omar, Id:3112, Power:40, Type:L, Chairman: None
+	Democratic Person:Judy Chu, Id:4112, Power:14, Type:S, Chairman: None
+	Democratic Person:Barbara Lee, Id:4113, Power:2, Type:S, Chairman: None
+	Democratic Person:Tom O'Halleran, Id:3115, Power:21, Type:L, Chairman: None
+	Democratic Person:Jared Huffman, Id:3116, Power:54, Type:L, Chairman: None
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+
+
+your program's output:
+
+
+
+
+./open_tests.sh: line 3: 3508093 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+Open Test - 3 (print politicians)
+Test Failed. Details: 
+./open_tests.sh: line 3: 3508126 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+stdin: 
+
+6
+0
+
+
+expected output:
+
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+----Politicians----
+Republican Person:Dunald Trump, Id:1111, Power:100, Type:L, Chairman: None
+Democratic Person:Alexandria Ocasio-Cortez, Id:3111, Power:50, Type:L, Chairman: None
+Democratic Person:Ilhan Abdullahi-Omar, Id:3112, Power:40, Type:L, Chairman: None
+Republican Person:Steve Scalise, Id:1112, Power:40, Type:L, Chairman: None
+Democratic Person:Judy Chu, Id:4112, Power:14, Type:S, Chairman: None
+Democratic Person:Barbara Lee, Id:4113, Power:2, Type:S, Chairman: None
+Democratic Person:Nancy Pelosi, Id:4114, Power:1, Type:S, Chairman: None
+Republican Person:Liz Cheney, Id:1113, Power:29, Type:L, Chairman: None
+Republican Person:Jason Smith, Id:1116, Power:14, Type:L, Chairman: None
+Republican Person:Gary Palmer, Id:1117, Power:21, Type:L, Chairman: None
+Republican Person:Michael Conaway, Id:2111, Power:10, Type:S, Chairman: None
+Republican Person:Kay Granger, Id:2112, Power:4, Type:S, Chairman: None
+Republican Person:Mac Thornberry, Id:2113, Power:9, Type:S, Chairman: None
+Republican Person:Steve Womack, Id:2114, Power:11, Type:S, Chairman: None
+Republican Person:Virginia Foxx, Id:2115, Power:21, Type:S, Chairman: None
+Republican Person:Greg Walden, Id:2116, Power:14, Type:S, Chairman: None
+Republican Person:Kenny Marchant, Id:2117, Power:21, Type:S, Chairman: None
+Democratic Person:Ayanna Soyini-Pressley, Id:3113, Power:39, Type:L, Chairman: None
+Republican Person:Tom Emmer, Id:1114, Power:11, Type:L, Chairman: None
+Republican Person:Mark Walker, Id:1115, Power:21, Type:L, Chairman: None
+Democratic Person:Rashida Harbi-Tlaib, Id:3114, Power:11, Type:L, Chairman: None
+Democratic Person:Tom O'Halleran, Id:3115, Power:21, Type:L, Chairman: None
+Democratic Person:Jared Huffman, Id:3116, Power:54, Type:L, Chairman: None
+Democratic Person:Hillary Clinton, Id:3117, Power:81, Type:L, Chairman: None
+Democratic Person:Jim Costa, Id:4111, Power:18, Type:S, Chairman: None
+Democratic Person:Mike Levin, Id:4115, Power:20, Type:S, Chairman: None
+Democratic Person:Juan Vargas, Id:4116, Power:17, Type:L, Chairman: None
+Democratic Person:Ted Detuch, Id:4117, Power:29, Type:S, Chairman: None
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+
+
+your program's output:
+
+
+
+
+./open_tests.sh: line 3: 3508159 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+Open Test - 4 (print parties after elections)
+Test Failed. Details: 
+./open_tests.sh: line 3: 3508192 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+stdin: 
+
+5
+7
+0
+
+
+expected output:
+
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+----Primaries----
+Mark is the chairman of Farmers
+Dunald is the chairman of Republicans_party
+Hillary is the chairman of Democratic_party
+Ayanna is the chairman of Peasants
+Jared is the chairman of Fishermen
+----Elections----
+Party: Farmers,Power: 184
+Party: Republicans_party,Power: 232
+Party: Democratic_party,Power: 232
+Party: Peasants,Power: 52
+Party: Fishermen,Power: 197
+----Elections Results----
+Republicans_party party won the elections and Dunald is the prime minister
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+----Parties----
+Republican Party: Farmers, chairman:Mark, Size:7
+	Republican Person:Mac Thornberry, Id:2113, Power:9, Type:S, Chairman: Mark
+	Republican Person:Steve Womack, Id:2114, Power:11, Type:S, Chairman: Mark
+	Republican Person:Virginia Foxx, Id:2115, Power:21, Type:S, Chairman: Mark
+	Republican Person:Greg Walden, Id:2116, Power:14, Type:S, Chairman: Mark
+	Republican Person:Kenny Marchant, Id:2117, Power:21, Type:S, Chairman: Mark
+	Republican Person:Tom Emmer, Id:1114, Power:11, Type:L, Chairman: Mark
+	Republican Person:Mark Walker, Id:1115, Power:21, Type:L, Chairman: Mark
+Republican Party: Republicans_party, chairman:Dunald, Size:7
+	Republican Person:Dunald Trump, Id:1111, Power:100, Type:L, Chairman: Dunald
+	Republican Person:Steve Scalise, Id:1112, Power:40, Type:L, Chairman: Dunald
+	Republican Person:Liz Cheney, Id:1113, Power:29, Type:L, Chairman: Dunald
+	Republican Person:Jason Smith, Id:1116, Power:14, Type:L, Chairman: Dunald
+	Republican Person:Gary Palmer, Id:1117, Power:21, Type:L, Chairman: Dunald
+	Republican Person:Michael Conaway, Id:2111, Power:10, Type:S, Chairman: Dunald
+	Republican Person:Kay Granger, Id:2112, Power:4, Type:S, Chairman: Dunald
+Democrat Party: Democratic_party, chairman:Hillary, Size:5
+	Democratic Person:Hillary Clinton, Id:3117, Power:81, Type:L, Chairman: Hillary
+	Democratic Person:Jim Costa, Id:4111, Power:18, Type:S, Chairman: Hillary
+	Democratic Person:Mike Levin, Id:4115, Power:20, Type:S, Chairman: Hillary
+	Democratic Person:Juan Vargas, Id:4116, Power:17, Type:L, Chairman: Hillary
+	Democratic Person:Ted Detuch, Id:4117, Power:29, Type:S, Chairman: Hillary
+Democrat Party: Peasants, chairman:Ayanna, Size:3
+	Democratic Person:Nancy Pelosi, Id:4114, Power:1, Type:S, Chairman: Ayanna
+	Democratic Person:Ayanna Soyini-Pressley, Id:3113, Power:39, Type:L, Chairman: Ayanna
+	Democratic Person:Rashida Harbi-Tlaib, Id:3114, Power:11, Type:L, Chairman: Ayanna
+Democrat Party: Fishermen, chairman:Jared, Size:6
+	Democratic Person:Alexandria Ocasio-Cortez, Id:3111, Power:50, Type:L, Chairman: Jared
+	Democratic Person:Ilhan Abdullahi-Omar, Id:3112, Power:40, Type:L, Chairman: Jared
+	Democratic Person:Judy Chu, Id:4112, Power:14, Type:S, Chairman: Jared
+	Democratic Person:Barbara Lee, Id:4113, Power:2, Type:S, Chairman: Jared
+	Democratic Person:Tom O'Halleran, Id:3115, Power:21, Type:L, Chairman: Jared
+	Democratic Person:Jared Huffman, Id:3116, Power:54, Type:L, Chairman: Jared
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+
+
+your program's output:
+
+
+
+
+./open_tests.sh: line 3: 3508225 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+Open Test - 5 (elections after adding a party)
+Test Failed. Details: 
+./open_tests.sh: line 3: 3508259 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+stdin: 
+
+7
+2
+Woodcutters
+D
+5
+7
+0
+
+
+expected output:
+
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+----Parties----
+Republican Party: Farmers, chairman:None, Size:7
+	Republican Person:Mac Thornberry, Id:2113, Power:9, Type:S, Chairman: None
+	Republican Person:Steve Womack, Id:2114, Power:11, Type:S, Chairman: None
+	Republican Person:Virginia Foxx, Id:2115, Power:21, Type:S, Chairman: None
+	Republican Person:Greg Walden, Id:2116, Power:14, Type:S, Chairman: None
+	Republican Person:Kenny Marchant, Id:2117, Power:21, Type:S, Chairman: None
+	Republican Person:Tom Emmer, Id:1114, Power:11, Type:L, Chairman: None
+	Republican Person:Mark Walker, Id:1115, Power:21, Type:L, Chairman: None
+Republican Party: Republicans_party, chairman:None, Size:7
+	Republican Person:Dunald Trump, Id:1111, Power:100, Type:L, Chairman: None
+	Republican Person:Steve Scalise, Id:1112, Power:40, Type:L, Chairman: None
+	Republican Person:Liz Cheney, Id:1113, Power:29, Type:L, Chairman: None
+	Republican Person:Jason Smith, Id:1116, Power:14, Type:L, Chairman: None
+	Republican Person:Gary Palmer, Id:1117, Power:21, Type:L, Chairman: None
+	Republican Person:Michael Conaway, Id:2111, Power:10, Type:S, Chairman: None
+	Republican Person:Kay Granger, Id:2112, Power:4, Type:S, Chairman: None
+Democrat Party: Democratic_party, chairman:None, Size:5
+	Democratic Person:Hillary Clinton, Id:3117, Power:81, Type:L, Chairman: None
+	Democratic Person:Jim Costa, Id:4111, Power:18, Type:S, Chairman: None
+	Democratic Person:Mike Levin, Id:4115, Power:20, Type:S, Chairman: None
+	Democratic Person:Juan Vargas, Id:4116, Power:17, Type:L, Chairman: None
+	Democratic Person:Ted Detuch, Id:4117, Power:29, Type:S, Chairman: None
+Democrat Party: Peasants, chairman:None, Size:3
+	Democratic Person:Nancy Pelosi, Id:4114, Power:1, Type:S, Chairman: None
+	Democratic Person:Ayanna Soyini-Pressley, Id:3113, Power:39, Type:L, Chairman: None
+	Democratic Person:Rashida Harbi-Tlaib, Id:3114, Power:11, Type:L, Chairman: None
+Democrat Party: Fishermen, chairman:None, Size:6
+	Democratic Person:Alexandria Ocasio-Cortez, Id:3111, Power:50, Type:L, Chairman: None
+	Democratic Person:Ilhan Abdullahi-Omar, Id:3112, Power:40, Type:L, Chairman: None
+	Democratic Person:Judy Chu, Id:4112, Power:14, Type:S, Chairman: None
+	Democratic Person:Barbara Lee, Id:4113, Power:2, Type:S, Chairman: None
+	Democratic Person:Tom O'Halleran, Id:3115, Power:21, Type:L, Chairman: None
+	Democratic Person:Jared Huffman, Id:3116, Power:54, Type:L, Chairman: None
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+---Create Party---
+Name:
+Republican or Democratic party
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+----Primaries----
+Mark is the chairman of Farmers
+Dunald is the chairman of Republicans_party
+Juan is the chairman of Democratic_party
+Ayanna is the chairman of Peasants
+Jared is the chairman of Fishermen
+Hillary is the chairman of Woodcutters
+----Elections----
+Party: Farmers,Power: 184
+Party: Republicans_party,Power: 232
+Party: Democratic_party,Power: 151
+Party: Peasants,Power: 52
+Party: Fishermen,Power: 79
+Party: Woodcutters,Power: 199
+----Elections Results----
+Republicans_party party won the elections and Dunald is the prime minister
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+----Parties----
+Republican Party: Farmers, chairman:Mark, Size:7
+	Republican Person:Mac Thornberry, Id:2113, Power:9, Type:S, Chairman: Mark
+	Republican Person:Steve Womack, Id:2114, Power:11, Type:S, Chairman: Mark
+	Republican Person:Virginia Foxx, Id:2115, Power:21, Type:S, Chairman: Mark
+	Republican Person:Greg Walden, Id:2116, Power:14, Type:S, Chairman: Mark
+	Republican Person:Kenny Marchant, Id:2117, Power:21, Type:S, Chairman: Mark
+	Republican Person:Tom Emmer, Id:1114, Power:11, Type:L, Chairman: Mark
+	Republican Person:Mark Walker, Id:1115, Power:21, Type:L, Chairman: Mark
+Republican Party: Republicans_party, chairman:Dunald, Size:7
+	Republican Person:Dunald Trump, Id:1111, Power:100, Type:L, Chairman: Dunald
+	Republican Person:Steve Scalise, Id:1112, Power:40, Type:L, Chairman: Dunald
+	Republican Person:Liz Cheney, Id:1113, Power:29, Type:L, Chairman: Dunald
+	Republican Person:Jason Smith, Id:1116, Power:14, Type:L, Chairman: Dunald
+	Republican Person:Gary Palmer, Id:1117, Power:21, Type:L, Chairman: Dunald
+	Republican Person:Michael Conaway, Id:2111, Power:10, Type:S, Chairman: Dunald
+	Republican Person:Kay Granger, Id:2112, Power:4, Type:S, Chairman: Dunald
+Democrat Party: Democratic_party, chairman:Juan, Size:4
+	Democratic Person:Jim Costa, Id:4111, Power:18, Type:S, Chairman: Juan
+	Democratic Person:Mike Levin, Id:4115, Power:20, Type:S, Chairman: Juan
+	Democratic Person:Juan Vargas, Id:4116, Power:17, Type:L, Chairman: Juan
+	Democratic Person:Ted Detuch, Id:4117, Power:29, Type:S, Chairman: Juan
+Democrat Party: Peasants, chairman:Ayanna, Size:3
+	Democratic Person:Nancy Pelosi, Id:4114, Power:1, Type:S, Chairman: Ayanna
+	Democratic Person:Ayanna Soyini-Pressley, Id:3113, Power:39, Type:L, Chairman: Ayanna
+	Democratic Person:Rashida Harbi-Tlaib, Id:3114, Power:11, Type:L, Chairman: Ayanna
+Democrat Party: Fishermen, chairman:Jared, Size:3
+	Democratic Person:Barbara Lee, Id:4113, Power:2, Type:S, Chairman: Jared
+	Democratic Person:Tom O'Halleran, Id:3115, Power:21, Type:L, Chairman: Jared
+	Democratic Person:Jared Huffman, Id:3116, Power:54, Type:L, Chairman: Jared
+Democrat Party: Woodcutters, chairman:Hillary, Size:4
+	Democratic Person:Alexandria Ocasio-Cortez, Id:3111, Power:50, Type:L, Chairman: Hillary
+	Democratic Person:Ilhan Abdullahi-Omar, Id:3112, Power:40, Type:L, Chairman: Hillary
+	Democratic Person:Judy Chu, Id:4112, Power:14, Type:S, Chairman: Hillary
+	Democratic Person:Hillary Clinton, Id:3117, Power:81, Type:L, Chairman: Hillary
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+
+
+your program's output:
+
+
+
+
+./open_tests.sh: line 3: 3508292 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+Open Test - 6 (biggest party print)
+Test Failed. Details: 
+./open_tests.sh: line 3: 3508325 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+stdin: 
+
+8
+0
+
+
+expected output:
+
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+----Biggest Party----
+[Republicans_party,7]
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+
+
+your program's output:
+
+
+
+
+./open_tests.sh: line 3: 3508358 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+Open Test - 7 (add a politician and print)
+Test Failed. Details: 
+./open_tests.sh: line 3: 3508392 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+stdin: 
+
+1
+D_f
+D_l
+44444
+7
+D
+S
+7
+0
+
+
+expected output:
+
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+---Create Politician---
+First name:
+Last name:
+ID:
+Power:
+Republican or Democratic person
+Leader or Social
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+----Parties----
+Republican Party: Farmers, chairman:None, Size:7
+	Republican Person:Mac Thornberry, Id:2113, Power:9, Type:S, Chairman: None
+	Republican Person:Steve Womack, Id:2114, Power:11, Type:S, Chairman: None
+	Republican Person:Virginia Foxx, Id:2115, Power:21, Type:S, Chairman: None
+	Republican Person:Greg Walden, Id:2116, Power:14, Type:S, Chairman: None
+	Republican Person:Kenny Marchant, Id:2117, Power:21, Type:S, Chairman: None
+	Republican Person:Tom Emmer, Id:1114, Power:11, Type:L, Chairman: None
+	Republican Person:Mark Walker, Id:1115, Power:21, Type:L, Chairman: None
+Republican Party: Republicans_party, chairman:None, Size:7
+	Republican Person:Dunald Trump, Id:1111, Power:100, Type:L, Chairman: None
+	Republican Person:Steve Scalise, Id:1112, Power:40, Type:L, Chairman: None
+	Republican Person:Liz Cheney, Id:1113, Power:29, Type:L, Chairman: None
+	Republican Person:Jason Smith, Id:1116, Power:14, Type:L, Chairman: None
+	Republican Person:Gary Palmer, Id:1117, Power:21, Type:L, Chairman: None
+	Republican Person:Michael Conaway, Id:2111, Power:10, Type:S, Chairman: None
+	Republican Person:Kay Granger, Id:2112, Power:4, Type:S, Chairman: None
+Democrat Party: Democratic_party, chairman:None, Size:5
+	Democratic Person:Hillary Clinton, Id:3117, Power:81, Type:L, Chairman: None
+	Democratic Person:Jim Costa, Id:4111, Power:18, Type:S, Chairman: None
+	Democratic Person:Mike Levin, Id:4115, Power:20, Type:S, Chairman: None
+	Democratic Person:Juan Vargas, Id:4116, Power:17, Type:L, Chairman: None
+	Democratic Person:Ted Detuch, Id:4117, Power:29, Type:S, Chairman: None
+Democrat Party: Peasants, chairman:None, Size:4
+	Democratic Person:Nancy Pelosi, Id:4114, Power:1, Type:S, Chairman: None
+	Democratic Person:Ayanna Soyini-Pressley, Id:3113, Power:39, Type:L, Chairman: None
+	Democratic Person:Rashida Harbi-Tlaib, Id:3114, Power:11, Type:L, Chairman: None
+	Democratic Person:D_f D_l, Id:44444, Power:7, Type:S, Chairman: None
+Democrat Party: Fishermen, chairman:None, Size:6
+	Democratic Person:Alexandria Ocasio-Cortez, Id:3111, Power:50, Type:L, Chairman: None
+	Democratic Person:Ilhan Abdullahi-Omar, Id:3112, Power:40, Type:L, Chairman: None
+	Democratic Person:Judy Chu, Id:4112, Power:14, Type:S, Chairman: None
+	Democratic Person:Barbara Lee, Id:4113, Power:2, Type:S, Chairman: None
+	Democratic Person:Tom O'Halleran, Id:3115, Power:21, Type:L, Chairman: None
+	Democratic Person:Jared Huffman, Id:3116, Power:54, Type:L, Chairman: None
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+
+
+your program's output:
+
+
+
+
+./open_tests.sh: line 3: 3508425 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+Open Test - 8 (Remove a party with prints)
+Test Failed. Details: 
+./open_tests.sh: line 3: 3508458 Aborted                 (core dumped) ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+stdin: 
+
+7
+4
+Peasants
+7
+0
+
+
+expected output:
+
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+----Parties----
+Republican Party: Farmers, chairman:None, Size:7
+	Republican Person:Mac Thornberry, Id:2113, Power:9, Type:S, Chairman: None
+	Republican Person:Steve Womack, Id:2114, Power:11, Type:S, Chairman: None
+	Republican Person:Virginia Foxx, Id:2115, Power:21, Type:S, Chairman: None
+	Republican Person:Greg Walden, Id:2116, Power:14, Type:S, Chairman: None
+	Republican Person:Kenny Marchant, Id:2117, Power:21, Type:S, Chairman: None
+	Republican Person:Tom Emmer, Id:1114, Power:11, Type:L, Chairman: None
+	Republican Person:Mark Walker, Id:1115, Power:21, Type:L, Chairman: None
+Republican Party: Republicans_party, chairman:None, Size:7
+	Republican Person:Dunald Trump, Id:1111, Power:100, Type:L, Chairman: None
+	Republican Person:Steve Scalise, Id:1112, Power:40, Type:L, Chairman: None
+	Republican Person:Liz Cheney, Id:1113, Power:29, Type:L, Chairman: None
+	Republican Person:Jason Smith, Id:1116, Power:14, Type:L, Chairman: None
+	Republican Person:Gary Palmer, Id:1117, Power:21, Type:L, Chairman: None
+	Republican Person:Michael Conaway, Id:2111, Power:10, Type:S, Chairman: None
+	Republican Person:Kay Granger, Id:2112, Power:4, Type:S, Chairman: None
+Democrat Party: Democratic_party, chairman:None, Size:5
+	Democratic Person:Hillary Clinton, Id:3117, Power:81, Type:L, Chairman: None
+	Democratic Person:Jim Costa, Id:4111, Power:18, Type:S, Chairman: None
+	Democratic Person:Mike Levin, Id:4115, Power:20, Type:S, Chairman: None
+	Democratic Person:Ted Detuch, Id:4117, Power:29, Type:S, Chairman: None
+Democrat Party: Peasants, chairman:None, Size:3
+	Democratic Person:Nancy Pelosi, Id:4114, Power:1, Type:S, Chairman: None
+	Democratic Person:Ayanna Soyini-Pressley, Id:3113, Power:39, Type:L, Chairman: None
+	Democratic Person:Rashida Harbi-Tlaib, Id:3114, Power:11, Type:L, Chairman: None
+Democrat Party: Fishermen, chairman:None, Size:6
+	Democratic Person:Alexandria Ocasio-Cortez, Id:3111, Power:50, Type:L, Chairman: None
+	Democratic Person:Ilhan Abdullahi-Omar, Id:3112, Power:40, Type:L, Chairman: None
+	Democratic Person:Judy Chu, Id:4112, Power:14, Type:S, Chairman: None
+	Democratic Person:Barbara Lee, Id:4113, Power:2, Type:S, Chairman: None
+	Democratic Person:Tom O'Halleran, Id:3115, Power:21, Type:L, Chairman: None
+	Democratic Person:Jared Huffman, Id:3116, Power:54, Type:L, Chairman: None
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+---Remove Party---
+Enter party name:
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+----Parties----
+Republican Party: Farmers, chairman:None, Size:7
+	Republican Person:Mac Thornberry, Id:2113, Power:9, Type:S, Chairman: None
+	Republican Person:Steve Womack, Id:2114, Power:11, Type:S, Chairman: None
+	Republican Person:Virginia Foxx, Id:2115, Power:21, Type:S, Chairman: None
+	Republican Person:Greg Walden, Id:2116, Power:14, Type:S, Chairman: None
+	Republican Person:Kenny Marchant, Id:2117, Power:21, Type:S, Chairman: None
+	Republican Person:Tom Emmer, Id:1114, Power:11, Type:L, Chairman: None
+	Republican Person:Mark Walker, Id:1115, Power:21, Type:L, Chairman: None
+Republican Party: Republicans_party, chairman:None, Size:7
+	Republican Person:Dunald Trump, Id:1111, Power:100, Type:L, Chairman: None
+	Republican Person:Steve Scalise, Id:1112, Power:40, Type:L, Chairman: None
+	Republican Person:Liz Cheney, Id:1113, Power:29, Type:L, Chairman: None
+	Republican Person:Jason Smith, Id:1116, Power:14, Type:L, Chairman: None
+	Republican Person:Gary Palmer, Id:1117, Power:21, Type:L, Chairman: None
+	Republican Person:Michael Conaway, Id:2111, Power:10, Type:S, Chairman: None
+	Republican Person:Kay Granger, Id:2112, Power:4, Type:S, Chairman: None
+Democrat Party: Democratic_party, chairman:None, Size:7
+	Democratic Person:Hillary Clinton, Id:3117, Power:81, Type:L, Chairman: None
+	Democratic Person:Jim Costa, Id:4111, Power:18, Type:S, Chairman: None
+	Democratic Person:Mike Levin, Id:4115, Power:20, Type:S, Chairman: None
+	Democratic Person:Juan Vargas, Id:4116, Power:17, Type:L, Chairman: None
+	Democratic Person:Ted Detuch, Id:4117, Power:29, Type:S, Chairman: None
+	Democratic Person:Nancy Pelosi, Id:4114, Power:1, Type:S, Chairman: None
+	Democratic Person:Rashida Harbi-Tlaib, Id:3114, Power:11, Type:L, Chairman: None
+Democrat Party: Fishermen, chairman:None, Size:7
+	Democratic Person:Alexandria Ocasio-Cortez, Id:3111, Power:50, Type:L, Chairman: None
+	Democratic Person:Ilhan Abdullahi-Omar, Id:3112, Power:40, Type:L, Chairman: None
+	Democratic Person:Judy Chu, Id:4112, Power:14, Type:S, Chairman: None
+	Democratic Person:Barbara Lee, Id:4113, Power:2, Type:S, Chairman: None
+	Democratic Person:Tom O'Halleran, Id:3115, Power:21, Type:L, Chairman: None
+	Democratic Person:Jared Huffman, Id:3116, Power:54, Type:L, Chairman: None
+	Democratic Person:Ayanna Soyini-Pressley, Id:3113, Power:39, Type:L, Chairman: None
+1. Add Politician
+2. Add Party
+3. Remove Politician
+4. Remove Party
+5. Elections
+6. Print Politicians
+7. Print Parties
+8. Biggest Party
+0. Exit
+
+
+your program's output:
+
+
+
+
+./val_test.sh: line 4: 3508492 Aborted                 (core dumped) valgrind --leak-check=summary ./Ass5 "../initFile.txt" < "../$1" 2> err.txt > out.txt
+Valgrind Failed.
+
+VPL
+	Democratic Person:Juan Vargas, Id:4116, Power:17, Type:L, Chairman: None
